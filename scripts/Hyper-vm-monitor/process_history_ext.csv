@@ -1,0 +1,886 @@
+PID,USER,PR,NI,VIRT,RES,SHR,S,%CPU,%MEM,TIME+ COMMAND
+3146,root,20,0,72768,10m,3024,S,10,0.1, /usr/bin/python /usr/bin/ntp-serverControl -CS CompontState
+3167,root,20,0,55564,6888,2644,R,6,0.0, python /usr/bin/cps-hastateGet -HA ntp-server
+1247,root,20,0,13704,3952,612,S,4,0.0, /usr/sbin/cgrulesengd --logfile=/var/log/cgred
+3123,root,20,0,9256,1488,832,R,2,0.0, top -d 2 -c -b -n 2
+6166,openstac,20,0,371m,128m,8580,S,2,0.8, /usr/bin/python /usr/bin/nova-compute --config-file=/etc/nova/nova-comput
+6483,cps,17,-3,197m,14m,3884,S,2,0.1, /usr/bin/python /usr/local/bin/cps-monitor/cps_monitor/cps_monitor.py
+11502,openstac,20,0,217m,57m,5712,S,2,0.4, /usr/bin/python /usr/bin/cinder-api --config-file /etc/cinder/cinder-api.
+11707,openstac,20,0,197m,49m,5604,S,2,0.3, /usr/bin/python /usr/bin/nova-conductor --config-file=/etc/nova/nova-cond
+12892,openstac,20,0,192m,48m,4596,S,2,0.3, /usr/bin/python /usr/bin/glance-api
+15455,openstac,20,0,175m,39m,4560,S,2,0.2, /usr/bin/python /usr/bin/neutron-evs-agent --config-file=/etc/neutron/neu
+24115,cps,20,0,137m,9.9m,2836,S,2,0.1, python /usr/local/bin/network-server/network_server/networkServerMonitor.
+27484,rabbitmq,20,0,298m,126m,3528,S,2,0.8, /usr/lib64/erlang/erts-6.2/bin/beam.smp -W w -K true -A30 -P 1048576 -- -
+29980,openstac,20,0,202m,54m,5416,S,2,0.3, /usr/bin/python /usr/bin/cinder-backup --config-file /etc/cinder/cinder-b
+1,root,20,0,10560,884,752,S,0,0.0, init [3]
+2,root,20,0,0,0,0,S,0,0.0, [kthreadd]
+3,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/0]
+5,root,20,0,0,0,0,S,0,0.0, [kworker/u:0]
+6,root,RT,0,0,0,0,S,0,0.0, [migration/0]
+7,root,RT,0,0,0,0,S,0,0.0, [watchdog/0]
+8,root,RT,0,0,0,0,S,0,0.0, [migration/1]
+10,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/1]
+12,root,RT,0,0,0,0,S,0,0.0, [watchdog/1]
+13,root,RT,0,0,0,0,S,0,0.0, [migration/2]
+15,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/2]
+16,root,RT,0,0,0,0,S,0,0.0, [watchdog/2]
+17,root,RT,0,0,0,0,S,0,0.0, [migration/3]
+19,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/3]
+20,root,RT,0,0,0,0,S,0,0.0, [watchdog/3]
+21,root,RT,0,0,0,0,S,0,0.0, [migration/4]
+22,root,20,0,0,0,0,S,0,0.0, [kworker/
+23,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/4]
+24,root,RT,0,0,0,0,S,0,0.0, [watchdog/4]
+25,root,RT,0,0,0,0,S,0,0.0, [migration/5]
+27,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/5]
+28,root,RT,0,0,0,0,S,0,0.0, [watchdog/5]
+29,root,RT,0,0,0,0,S,0,0.0, [migration/6]
+31,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/6]
+32,root,RT,0,0,0,0,S,0,0.0, [watchdog/6]
+33,root,RT,0,0,0,0,S,0,0.0, [migration/7]
+35,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/7]
+36,root,RT,0,0,0,0,S,0,0.0, [watchdog/7]
+37,root,0,-20,0,0,0,S,0,0.0, [cpuset]
+38,root,0,-20,0,0,0,S,0,0.0, [khelper]
+39,root,0,-20,0,0,0,S,0,0.0, [netns]
+40,root,20,0,0,0,0,S,0,0.0, [sync_supers]
+41,root,20,0,0,0,0,S,0,0.0, [bdi-default]
+42,root,0,-20,0,0,0,S,0,0.0, [kintegrityd]
+43,root,0,-20,0,0,0,S,0,0.0, [kblockd]
+44,root,0,-20,0,0,0,S,0,0.0, [md]
+45,root,20,0,0,0,0,S,0,0.0, [khungtaskd]
+46,root,20,0,0,0,0,S,0,0.0, [kswapd0]
+47,root,25,5,0,0,0,S,0,0.0, [ksmd]
+48,root,39,19,0,0,0,S,0,0.0, [khugepaged]
+49,root,20,0,0,0,0,S,0,0.0, [fsnotify_mark]
+50,root,0,-20,0,0,0,S,0,0.0, [crypto]
+54,root,0,-20,0,0,0,S,0,0.0, [kthrotld]
+55,root,0,-20,0,0,0,S,0,0.0, [kpsmoused]
+139,root,0,-20,0,0,0,S,0,0.0, [kmpath_aluad]
+147,root,0,-20,0,0,0,S,0,0.0, [kmpath_rdacd]
+259,root,0,-20,0,0,0,S,0,0.0, [mpt_poll_0]
+260,root,0,-20,0,0,0,S,0,0.0, [mpt/0]
+271,root,20,0,0,0,0,S,0,0.0, [kworker/
+272,root,20,0,0,0,0,S,0,0.0, [kworker/
+275,root,20,0,0,0,0,S,0,0.0, [kworker/
+276,root,20,0,0,0,0,S,0,0.0, [kworker/
+277,root,20,0,0,0,0,S,0,0.0, [scsi_eh_0]
+279,root,20,0,0,0,0,S,0,0.0, [kworker/u:1]
+348,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+350,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+352,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+354,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+357,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+361,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+364,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+368,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+371,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+375,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+378,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+383,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+503,root,20,0,0,0,0,S,0,0.0, [kjournald]
+509,root,20,0,0,0,0,S,0,0.0, [flush-25
+532,dnsmasq,20,0,13808,812,392,S,0,0.0, dnsmasq --conf-file=/etc/apacheproxy/dnsmasq.conf --pid-file=/etc/apachep
+609,root,16,-4,17028,1064,548,S,0,0.0, /sbin/udevd --daemon
+703,root,0,-20,0,0,0,S,0,0.0, [ata_sff]
+747,root,20,0,0,0,0,S,0,0.0, [scsi_eh_1]
+749,root,20,0,0,0,0,S,0,0.0, [scsi_eh_2]
+768,root,0,-20,0,0,0,S,0,0.0, [vmmemctl]
+784,dnsmasq,20,0,13808,1140,716,S,0,0.0, dnsmasq --no-hosts --no-resolv --strict-order --bind-interfaces --interfa
+791,dnsmasq,20,0,13808,1144,716,S,0,0.0, dnsmasq --no-hosts --no-resolv --strict-order --bind-interfaces --interfa
+804,root,20,0,0,0,0,S,0,0.0, [kworker/
+809,root,20,0,0,0,0,S,0,0.0, [kworker/
+853,dnsmasq,20,0,13808,1140,716,S,0,0.0, dnsmasq --no-hosts --no-resolv --strict-order --bind-interfaces --interfa
+858,dnsmasq,20,0,13808,1232,716,S,0,0.0, dnsmasq --no-hosts --no-resolv --strict-order --bind-interfaces --interfa
+962,root,20,0,0,0,0,S,0,0.0, [kjournald]
+965,root,20,0,0,0,0,S,0,0.0, [kjournald]
+967,root,20,0,0,0,0,S,0,0.0, [kjournald]
+1088,root,20,0,149m,28m,2168,S,0,0.2, /usr/bin/python /usr/bin/neutron-ns-metadata-proxy --pid_file=/var/lib/ne
+1100,root,20,0,149m,28m,2168,S,0,0.2, /usr/bin/python /usr/bin/neutron-ns-metadata-proxy --pid_file=/var/lib/ne
+1123,root,20,0,149m,28m,2168,S,0,0.2, /usr/bin/python /usr/bin/neutron-ns-metadata-proxy --pid_file=/var/lib/ne
+1126,root,20,0,149m,28m,2168,S,0,0.2, /usr/bin/python /usr/bin/neutron-ns-metadata-proxy --pid_file=/var/lib/ne
+1219,root,0,-20,0,0,0,S,0,0.0, [target_completi]
+1220,root,0,-20,0,0,0,S,0,0.0, [tmr-%s]
+1281,root,0,-20,0,0,0,S,0,0.0, [bond0]
+1362,gaussdba,20,0,1183m,10m,6788,S,0,0.1, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36937) idle
+1371,root,20,0,4024,648,536,S,0,0.0, /sbin/acpid
+1383,messageb,20,0,27872,1144,852,S,0,0.0, /bin/dbus-daemon --system
+1419,root,20,0,22300,2824,680,S,0,0.0, /usr/bin/python /usr/libexec/tuned/pmqos-static.py cpu_dma_latency=1
+1469,root,20,0,0,0,0,S,0,0.0, [ovs_workq]
+1493,root,10,-10,25376,608,200,S,0,0.0, ovsdb-server: monitoring pid 1494 (healthy)
+1494,root,10,-10,25832,2820,1816,S,0,0.0, ovsdb-server /etc/openvswitch/conf.db -vconsole:emer -vsyslog:err -vfile:
+1503,root,10,-10,25928,620,184,S,0,0.0, ovs-vswitchd: monitoring pid 1504 (healthy)
+1504,root,10,-10,146m,64m,6304,S,0,0.4, ovs-vswitchd unix:/var/run/openvswitch/db.sock -vconsole:emer -vsyslog:er
+1574,root,20,0,57428,5820,1564,S,0,0.0, /usr/bin/python /usr/sbin/tuned -d -c /etc/tuned.conf
+1661,gaussdba,20,0,1182m,8804,5992,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36960) idle
+1669,gaussdba,20,0,1182m,8480,5716,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36961) idle
+1674,haldaemo,20,0,38236,4192,3012,S,0,0.0, /usr/sbin/hald --daemon=yes
+1677,root,20,0,98640,2236,1448,S,0,0.0, /usr/sbin/console-kit-daemon
+1740,root,20,0,22332,1404,1156,S,0,0.0, hald-runner
+1751,root,20,0,39056,2144,1820,S,0,0.0, hald-addon-input: Listening on /dev/input/event0 /dev/input/event2
+1757,gaussdba,20,0,1182m,9880,6504,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36967) idle
+1771,haldaemo,20,0,40812,2276,1928,S,0,0.0, hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+1772,root,20,0,0,0,0,S,0,0.0, [kworker/
+1777,root,20,0,39056,2152,1820,S,0,0.0, hald-addon-storage: polling /dev/sr0 (every 16 sec)
+1779,root,20,0,39056,2152,1820,S,0,0.0, hald-addon-storage: no polling on /dev/fd0 because it is explicitly disab
+1783,gaussdba,20,0,1182m,9348,6400,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36968) idle
+1799,gaussdba,20,0,1182m,9792,7008,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36969) idle
+1809,gaussdba,20,0,1182m,8364,5632,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36970) idle
+1810,gaussdba,20,0,1182m,8904,5992,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36971) idle
+1812,gaussdba,20,0,1182m,8368,5636,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36972) idle
+1813,gaussdba,20,0,1182m,8388,5656,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36973) idle
+1814,gaussdba,20,0,1182m,8376,5644,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36974) idle
+1875,gaussdba,20,0,1182m,8632,5832,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36981) idle
+1876,gaussdba,20,0,1182m,8380,5648,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36982) idle
+1878,gaussdba,20,0,1182m,8384,5652,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36984) idle
+1886,gaussdba,20,0,1182m,8904,5976,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36985) idle
+1897,gaussdba,20,0,1182m,8384,5652,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36986) idle
+1899,gaussdba,20,0,1182m,8908,6100,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36987) idle
+1906,gaussdba,20,0,1182m,8372,5620,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36988) idle
+1907,gaussdba,20,0,1182m,8384,5652,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36989) idle
+1908,gaussdba,20,0,1182m,8384,5652,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36991) idle
+2067,gaussdba,20,0,1182m,8372,5640,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36992) idle
+2112,gaussdba,20,0,1181m,6848,4484,S,0,0.0, gaussdb: OPENSTACK CINDER 172.28.0.2(36994) idle
+2113,gaussdba,20,0,1181m,6844,4480,S,0,0.0, gaussdb: OPENSTACK CINDER 172.28.0.2(36995) idle
+2116,cps,17,-3,109m,10m,3276,S,0,0.1, python /usr/local/bin/cbs-server/bin/cbs-server.py --ha ACTIVE --servers
+2137,cps,17,-3,207m,13m,3544,S,0,0.1, python /usr/local/bin/cbs-server/bin/progress/progress_update.py --ha ACT
+2142,cps,17,-3,11556,1588,1128,S,0,0.0, sh -c { curl --keepalive-time 3 -fs -X GET http://172.28.10.10v1/A
+2143,cps,17,-3,45532,2548,1864,S,0,0.0, curl --keepalive-time 3 -fs -X GET http://172.28.10.10v1/AUTH_test
+2226,gaussdba,20,0,1181m,7084,4708,S,0,0.0, gaussdb: OPENSTACK CINDER 172.28.0.2(36996) idle
+2264,gaussdba,20,0,1181m,6192,3880,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36997) idle
+2324,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2325,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2326,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2327,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2328,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2329,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2330,root,20,0,53336,1320,948,S,0,0.0, /usr/sbin/cron
+2331,root,20,0,53336,1320,948,S,0,0.0, /usr/sbin/cron
+2336,root,20,0,11320,1304,1076,S,0,0.0, /bin/sh -c sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/NetMonitor.sh
+2338,root,20,0,11320,1304,1076,S,0,0.0, /bin/sh -c sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/IOMonitor.sh
+2339,root,20,0,11320,1304,1076,S,0,0.0, /bin/sh -c sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/MemMonitor.sh
+2341,root,20,0,11320,1308,1076,S,0,0.0, /bin/sh -c sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/NetMonitor.sh
+2342,root,20,0,11320,1312,1076,S,0,0.0, /bin/sh -c sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/CpuMonitor.sh
+2345,root,20,0,11320,1308,1076,S,0,0.0, /bin/sh -c sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/CpuMonitor.sh
+2346,root,20,0,11320,1304,1076,S,0,0.0, /bin/sh -c sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/IOMonitor.sh
+2347,root,20,0,11320,1308,1076,S,0,0.0, /bin/sh -c sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/MemMonitor.sh
+2348,root,20,0,4020,296,236,S,0,0.0, sleep 40s
+2350,root,20,0,4020,300,236,S,0,0.0, sleep 40s
+2351,root,20,0,4020,296,236,S,0,0.0, sleep 20s
+2354,root,20,0,4020,300,236,S,0,0.0, sleep 40s
+2355,root,20,0,4020,296,236,S,0,0.0, sleep 20s
+2357,root,20,0,4020,300,236,S,0,0.0, sleep 20s
+2358,root,20,0,28404,10m,952,S,0,0.1, /sbin/syslog-ng -a /var/lib/dhcp/dev/log -a /var/lib/dhcp6/dev/log
+2361,root,20,0,4292,660,420,S,0,0.0, /sbin/klogd -c 5 -x
+2369,root,20,0,4020,296,236,S,0,0.0, sleep 20s
+2370,root,20,0,4020,300,236,S,0,0.0, sleep 40s
+2373,root,20,0,8384,4600,332,S,0,0.0, /sbin/haveged -w 1024 -v 1
+2581,gaussdba,20,0,1183m,11m,8060,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(37002) idle
+2582,gaussdba,20,0,1182m,11m,7852,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(37003) idle
+2588,gaussdba,20,0,1182m,7596,5128,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37008) idle
+2591,gaussdba,20,0,1181m,7168,4708,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37009) idle
+2649,gaussdba,20,0,1182m,7872,5320,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37010) idle
+2651,root,20,0,53736,1252,636,S,0,0.0, /usr/sbin/sshd -o PidFile=/var/run/sshd.init.pid
+2662,gaussdba,20,0,1181m,7688,5216,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37011) idle
+2663,root,20,0,26976,520,388,S,0,0.0, /usr/bin/sysalarm
+2667,gaussdba,20,0,1182m,9296,6240,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(37012) idle
+2679,gaussdba,20,0,1182m,7872,5320,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37013) idle
+2695,gaussdba,20,0,1182m,8144,5328,S,0,0.1, gaussdb: OPENSTACK CINDER 172.28.0.2(37016) idle
+2697,gaussdba,20,0,1182m,7880,5328,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37017) idle
+2721,root,20,0,318m,5816,2300,S,0,0.0, /usr/bin/UVPHostd
+2789,root,20,0,8792,548,288,S,0,0.0, /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+2790,root,20,0,124m,2700,1360,S,0,0.0, /usr/bin/hirmd -i 15 -S 0 -l 5 -H 0 -O 1
+2807,root,20,0,99.9m,1560,408,S,0,0.0, /usr/sbin/vBMC_agentd -d
+2825,root,20,0,98.4m,900,636,S,0,0.0, /usr/bin/sysmonitor
+2887,root,20,0,0,0,0,S,0,0.0, [flush-25
+2888,root,20,0,0,0,0,S,0,0.0, [flush-25
+2892,gaussdba,20,0,1181m,7204,4828,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37024) idle
+2902,gaussdba,20,0,1181m,7220,4840,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37026) idle
+2907,root,20,0,0,0,0,S,0,0.0, [kauditd]
+2988,gaussdba,20,0,1181m,6536,4200,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37034) idle
+3031,root,20,0,12692,932,772,S,0,0.0, /sbin/mingetty --noclear tty1
+3032,root,20,0,12692,924,768,S,0,0.0, /sbin/mingetty tty2
+3033,root,20,0,12692,924,768,S,0,0.0, /sbin/mingetty tty3
+3034,root,20,0,12692,924,768,S,0,0.0, /sbin/mingetty tty4
+3036,root,20,0,12692,904,756,S,0,0.0, /sbin/mingetty tty5
+3037,root,20,0,12692,928,768,S,0,0.0, /sbin/mingetty tty6
+3038,root,20,0,4032,608,516,S,0,0.0, /sbin/agetty -L 115200 ttyS0 xterm
+3044,gaussdba,20,0,1181m,6520,4184,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37039) idle
+3045,openstac,20,0,11504,1588,1128,S,0,0.0, sh -c { sudo arping 172.28.10.252 -D -w 2 -I brcps; } 2>&1
+3046,root,20,0,41576,2316,1572,S,0,0.0, sudo arping 172.28.10.252 -D -w 2 -I brcps
+3047,root,20,0,9200,660,504,S,0,0.0, arping 172.28.10.252 -D -w 2 -I brcps
+3055,cps,20,0,11552,1580,1128,S,0,0.0, sh -c { sudo discoveryTool eth0; } 2>&1
+3056,root,20,0,41576,2376,1628,S,0,0.0, sudo discoveryTool eth0
+3057,root,20,0,8288,568,416,S,0,0.0, discoveryTool eth0
+3122,root,20,0,11756,1672,1196,S,0,0.0, sh metric_ext.sh
+3142,root,20,0,40816,2376,1628,S,0,0.0, sudo /usr/bin/ntp-serverControl -CS CompontState
+3164,root,20,0,11552,1576,1124,S,0,0.0, /bin/sh -c sudo cps-hastateGet -HA ntp-server;echo $?
+3165,root,20,0,41576,2372,1624,S,0,0.0, sudo cps-hastateGet -HA ntp-server
+4005,root,0,-20,0,0,0,S,0,0.0, [trunk0]
+4087,openstac,20,0,214m,56m,5800,S,0,0.4, /usr/bin/python /usr/bin/ceilometer-agent-compute --config-file /etc/ceil
+4327,cps,20,0,124m,8192,2800,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+4448,cps,20,0,60836,6664,1072,S,0,0.0, python /usr/bin/AutoDiscoveryTimer.py
+4497,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4506,omm,20,0,99348,12m,3124,S,0,0.1, /opt/tangram/oma/bin/omm_agent.bin --bboxpath=/var/log/tangram/omm/oma/..
+4511,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4526,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4540,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4560,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4586,root,0,-20,0,0,0,S,0,0.0, [xfsalloc]
+4587,root,0,-20,0,0,0,S,0,0.0, [xfs_mru_cache]
+4588,root,0,-20,0,0,0,S,0,0.0, [xfslogd]
+4589,root,20,0,0,0,0,S,0,0.0, [xfsbufd/dm-10]
+4590,root,0,-20,0,0,0,S,0,0.0, [xfs-data/dm-10]
+4591,root,0,-20,0,0,0,S,0,0.0, [xfs-conv/dm-10]
+4592,root,20,0,0,0,0,S,0,0.0, [xfsaild/dm-10]
+4606,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4620,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4753,openstac,20,0,198m,49m,4552,S,0,0.3, /usr/bin/python /usr/bin/ceilometer-agent-hardware --config-file /etc/cei
+4761,root,20,0,0,0,0,S,0,0.0, [flush-25
+4762,root,20,0,0,0,0,S,0,0.0, [flush-25
+4763,root,20,0,0,0,0,S,0,0.0, [flush-25
+4765,root,20,0,0,0,0,S,0,0.0, [flush-25
+4823,cps,20,0,124m,8232,2840,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+5045,cps,20,0,68900,10m,2980,S,0,0.1, /usr/bin/python /usr/bin/cbs-serverControl -S RUN -HA ACTIVE -N {'instId'
+5416,cps,20,0,187m,18m,3776,S,0,0.1, python /usr/local/bin/network-client/network_client/networkconf.py -c /et
+5551,cps,20,0,60200,8056,2860,S,0,0.0, python /usr/bin/monitor_syslog_ip.py
+6093,root,20,0,213m,7004,4124,S,0,0.0, /usr/sbin/libvirtd -d -l
+6424,root,20,0,0,0,0,S,0,0.0, [kworker/u:2]
+6458,root,20,0,0,0,0,S,0,0.0, [kworker/
+6478,root,20,0,0,0,0,S,0,0.0, [kworker/
+6486,cps,20,0,64180,7848,2728,S,0,0.0, /usr/bin/python /usr/local/bin/cps-monitor/cps_monitor/sys_monitor.py
+6633,root,20,0,171m,1684,932,S,0,0.0, /usr/sbin/nscd
+6659,cps,20,0,374m,28m,3896,S,0,0.2, python /usr/local/bin/cps-client/cps_client/cpsclient.py -s 172.28.10.121
+8393,root,20,0,0,0,0,S,0,0.0, [kworker/
+8922,root,20,0,81820,3584,2756,S,0,0.0, sshd: root@notty
+8930,root,20,0,9696,828,652,S,0,0.0, /usr/lib64/ssh/sftp-server -l INFO -f AUTH
+9779,cps,20,0,236m,21m,3840,S,0,0.1, /usr/bin/python /usr/local/bin/zookeeper/zkServerMgr.py -z 172.28.10.121:
+10144,cps,20,0,11508,1596,1136,S,0,0.0, /bin/sh -c python /usr/local/bin/cps-server/cps_server/cpsserver.py -z 17
+10146,cps,20,0,303m,32m,4780,S,0,0.2, python /usr/local/bin/cps-server/cps_server/cpsserver.py -z 172.28.10.121
+10233,root,20,0,0,0,0,S,0,0.0, [kworker/
+10542,openstac,20,0,180m,30m,5120,S,0,0.2, /usr/bin/python /usr/bin/nova-novncproxy --config-file=/etc/nova/nova-nov
+10687,root,0,-20,0,0,0,S,0,0.0, [iscsi_eh]
+10688,root,18,-2,17024,932,416,S,0,0.0, /sbin/udevd --daemon
+10689,root,18,-2,17024,776,260,S,0,0.0, /sbin/udevd --daemon
+10698,cps,20,0,124m,8192,2792,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+10699,root,20,0,4828,484,384,S,0,0.0, /sbin/iscsid -c /etc/iscsi/iscsid.conf -n
+10700,root,10,-10,5328,3216,2068,S,0,0.0, /sbin/iscsid -c /etc/iscsi/iscsid.conf -n
+10747,cps,20,0,164m,24m,3964,S,0,0.2, python /usr/local/bin/upg-server/upg_server/upg_server.py -u 9882 -s 172.
+11107,openstac,20,0,302m,75m,7732,S,0,0.5, /usr/bin/python /usr/bin/nova-api --config-file=/etc/nova/nova-api.conf
+11236,cps,20,0,61556,8184,2792,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+11272,cps,20,0,65728,8356,2848,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+11424,root,20,0,9484,832,652,S,0,0.0, /usr/lib64/ssh/sftp-server -l INFO -f AUTH
+11610,root,20,0,0,0,0,S,0,0.0, [kworker/
+11703,gaussdba,20,0,1181m,7184,4744,S,0,0.0, gaussdb: OPENSTACK DVS 172.28.0.2(36099) idle
+11790,openstac,20,0,288m,55m,1620,S,0,0.4, /usr/bin/python /usr/bin/nova-api --config-file=/etc/nova/nova-api.conf
+11798,cps,20,0,61556,8192,2800,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+11814,cps,20,0,61556,8184,2800,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+11897,openstac,20,0,237m,74m,3192,S,0,0.5, /usr/bin/python /usr/bin/cinder-api --config-file /etc/cinder/cinder-api.
+11915,cps,20,0,1218m,54m,8196,S,0,0.3, /usr/lib/jre/bin/java -XX:-UseLargePages -Djava.net.preferIPv4Stack=true
+11956,cps,20,0,65744,8368,2856,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+12000,openstac,20,0,363m,125m,3752,S,0,0.8, /usr/bin/python /usr/bin/nova-api --config-file=/etc/nova/nova-api.conf
+12080,openstac,20,0,302m,68m,1348,S,0,0.4, /usr/bin/python /usr/bin/nova-api --config-file=/etc/nova/nova-api.conf
+12689,openstac,20,0,206m,47m,5664,S,0,0.3, /usr/bin/python /usr/bin/heat-api
+13000,openstac,20,0,206m,44m,1916,S,0,0.3, /usr/bin/python /usr/bin/heat-api
+13004,openstac,20,0,206m,44m,1916,S,0,0.3, /usr/bin/python /usr/bin/heat-api
+13005,openstac,20,0,206m,44m,1916,S,0,0.3, /usr/bin/python /usr/bin/heat-api
+13110,openstac,20,0,206m,47m,5664,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cfn
+13138,openstac,20,0,160m,38m,3980,S,0,0.2, /usr/bin/python /usr/bin/glance-registry
+13326,openstac,20,0,205m,47m,5848,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cloudwatch
+13331,cps,20,0,61556,8200,2808,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+13375,cps,20,0,65728,8364,2856,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+13495,openstac,20,0,160m,35m,828,S,0,0.2, /usr/bin/python /usr/bin/glance-registry
+13516,openstac,20,0,192m,45m,1796,S,0,0.3, /usr/bin/python /usr/bin/glance-api
+13519,openstac,20,0,192m,45m,1796,S,0,0.3, /usr/bin/python /usr/bin/glance-api
+13520,openstac,20,0,192m,45m,1796,S,0,0.3, /usr/bin/python /usr/bin/glance-api
+13556,openstac,20,0,206m,43m,1748,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cfn
+13559,openstac,20,0,206m,43m,1748,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cfn
+13561,openstac,20,0,206m,43m,1748,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cfn
+13573,cps,20,0,61556,8200,2816,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+13610,cps,20,0,139m,13m,3512,S,0,0.1, python /usr/local/bin/ntp-client/ntp_client/ntpclient.py -s 172.28.11.37
+13694,cps,20,0,86392,11m,3252,S,0,0.1, python /usr/local/lib/rabbitmq/HW_FS_Extend/etc/rabbitmq_monitor.py
+13811,cps,20,0,63676,8216,2816,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+14108,openstac,20,0,179m,43m,4560,S,0,0.3, /usr/bin/python /usr/bin/neutron-l3-agent --config-file=/etc/neutron/neut
+14306,cps,20,0,61556,8212,2824,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+14552,root,20,0,98.5m,36m,2092,S,0,0.2, /usr/bin/ruby /usr/sbin/puppetd --logdest=/var/log/puppet/puppet.log --ma
+14738,openstac,20,0,206m,12m,3496,S,0,0.1, /usr/bin/python /usr/bin/oam-network-agent /etc/fusionnetwork/oam-network
+14998,cps,20,0,61556,8212,2824,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+15326,openstac,20,0,174m,38m,4552,S,0,0.2, /usr/bin/python /usr/bin/neutron-sriov-nic-agent --config-file=/etc/neutr
+15407,backup,20,0,137m,24m,3972,S,0,0.2, python /usr/local/bin/backup-client/backup_client/backup_client.py -g htt
+15505,cps,20,0,61556,8220,2832,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+15696,cps,20,0,61556,8220,2832,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+15849,openstac,20,0,165m,31m,4516,S,0,0.2, /usr/bin/python /usr/bin/dvs-agent --config-file=/etc/dvs/dvs-agent.ini
+16037,openstac,20,0,180m,40m,4596,S,0,0.3, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+16051,cps,20,0,124m,8232,2840,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+16191,cps,20,0,117m,16m,3508,S,0,0.1, python /usr/local/bin/info-collect-client/client/info_collect_client.py -
+16228,cps,20,0,56480,7740,2756,S,0,0.0, python /usr/local/bin/info-collect-client/client/info_collect_heartbeat_s
+16298,cps,20,0,61556,8236,2848,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+16334,openstac,20,0,176m,40m,4552,S,0,0.3, /usr/bin/python /usr/bin/neutron-metering-agent --config-file=/etc/neutro
+16356,openstac,20,0,185m,38m,2576,S,0,0.2, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+16357,openstac,20,0,185m,38m,2576,S,0,0.2, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+16358,openstac,20,0,185m,38m,2576,S,0,0.2, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+16359,openstac,20,0,185m,38m,2576,S,0,0.2, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+16365,root,20,0,0,0,0,S,0,0.0, [kworker/
+16615,cps,20,0,212m,26m,3616,S,0,0.2, python /usr/local/bin/upg-client/upg_client/upg_client.py --restServer 17
+16755,cps,20,0,61556,8236,2848,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+17965,root,20,0,0,0,0,S,0,0.0, [kworker/
+17998,cps,20,0,124m,8236,2824,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+18566,root,20,0,0,0,0,S,0,0.0, [kworker/
+18809,root,20,0,40816,2380,1628,S,0,0.0, sudo python /usr/local/bin/log-agent/log_agent/logagent.py -c /usr/local/
+18816,root,20,0,145m,27m,4044,S,0,0.2, python /usr/local/bin/log-agent/log_agent/logagent.py -c /usr/local/bin/l
+19065,cps,20,0,210m,14m,3676,S,0,0.1, python /usr/local/bin/fault-direct-notice/fault_direct_notice/faultdirect
+19286,root,20,0,60724,7148,2804,S,0,0.0, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+19620,openstac,20,0,180m,40m,4648,S,0,0.3, /usr/bin/python /usr/bin/cinder-volume --config-file /etc/cinder/cinder-v
+19885,cps,20,0,147m,8004,2808,S,0,0.0, python /usr/local/bin/collect-alarm/collect_alarm.py -C /etc/huawei/fusio
+20717,openstac,20,0,178m,42m,4628,S,0,0.3, /usr/bin/python /usr/bin/neutron-openvswitch-agent --config-file=/etc/neu
+21171,cps,20,0,124m,8244,2856,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+21799,root,20,0,0,0,0,S,0,0.0, [kworker/
+21854,cps,20,0,56688,7728,2768,S,0,0.0, python /opt/tangram/oma/tools/oma-monitor
+22441,openstac,20,0,267m,108m,3068,S,0,0.7, /usr/bin/python /usr/bin/nova-conductor --config-file=/etc/nova/nova-cond
+22832,openstac,20,0,269m,111m,3068,S,0,0.7, /usr/bin/python /usr/bin/nova-conductor --config-file=/etc/nova/nova-cond
+23347,openstac,20,0,142m,29m,4256,S,0,0.2, /usr/bin/python /usr/bin/neutron-reschedule --config-file=/etc/neutron-re
+23714,openstac,20,0,30708,940,384,S,0,0.0, memcached -d -m 1024 -l 172.28.10.6 -p 11211 -u openstack
+23771,cps,20,0,61556,8248,2864,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+23814,openstac,20,0,4072,352,236,S,0,0.0, sleep 300
+23955,cps,20,0,61556,8260,2872,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+24041,cps,20,0,165m,24m,4004,S,0,0.2, python /usr/local/bin/log-server/log_server/logserver.py -u 172.28.10.180
+24172,cps,20,0,106m,17m,3732,S,0,0.1, python /usr/local/bin/network-server/network_server/networkServer.py --ne
+24261,root,20,0,15704,728,568,S,0,0.0, /usr/sbin/cron
+24323,cps,20,0,387m,32m,4328,S,0,0.2, python /usr/local/bin/info-collect-server/server/info_collect_server.py -
+24387,cps,20,0,60804,7956,2828,S,0,0.0, python /usr/local/bin/info-collect-server/server/info_collect_heartbeat_s
+24578,gaussdba,20,0,1179m,116m,115m,S,0,0.7, /opt/gaussdb/app/bin/gaussdb -D /opt/fusionplatform/data/gaussdb
+24598,backup,20,0,226m,27m,4208,S,0,0.2, python /usr/local/bin/backup-server/backup_server/backup_server.py -r 172
+24694,root,20,0,82032,3592,2772,S,0,0.0, sshd: root@pts/0
+24701,openstac,20,0,206m,56m,2960,S,0,0.4, /usr/bin/python /usr/bin/cinder-volume --config-file /etc/cinder/cinder-v
+24703,openstac,20,0,269m,110m,3068,S,0,0.7, /usr/bin/python /usr/bin/nova-conductor --config-file=/etc/nova/nova-cond
+24757,openstac,20,0,11504,1652,1188,S,0,0.0, /bin/sh /usr/bin/oam-network-server --config-file=/etc/fusionnetwork/oam-
+24769,gaussdba,20,0,1180m,131m,130m,S,0,0.8, gaussdb: checkpointer process
+24770,gaussdba,20,0,1179m,8308,7408,S,0,0.1, gaussdb: writer process
+24771,gaussdba,20,0,1179m,48m,47m,S,0,0.3, gaussdb: wal writer process
+24772,gaussdba,20,0,1181m,3668,1364,S,0,0.0, gaussdb: autovacuum launcher process
+24773,gaussdba,20,0,29480,1660,768,S,0,0.0, gaussdb: archiver process last was 000000010000000000000077
+24774,gaussdba,20,0,30328,2428,796,S,0,0.0, gaussdb: stats collector process
+24775,gaussdba,20,0,29484,1580,684,S,0,0.0, gaussdb: auditor process
+24794,backup,20,0,140m,23m,768,S,0,0.1, python /usr/local/bin/backup-server/backup_server/backup_server.py -r 172
+24842,openstac,20,0,1255m,409m,9.9m,S,0,2.6, /usr/lib/jre/bin/java -Duser.timezone=GMT+08 -Dgosh.args=--nointeractive
+24911,cps,20,0,65728,8440,2928,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+24928,cps,20,0,61556,8268,2880,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+25092,openstac,20,0,209m,70m,5296,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+25407,cps,20,0,65744,8440,2928,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+25509,cps,20,0,65016,8328,3220,S,0,0.1, python /usr/local/bin/cps-web/core/python_project/src/control/cps_webmoni
+25532,cps,20,0,61556,8276,2888,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+25574,cps,20,0,109m,16m,3352,S,0,0.1, python /usr/local/bin/cps-web/core/python_project/src/control/cps_web_dow
+25584,cps,20,0,314m,26m,5292,S,0,0.2, python /usr/local/bin/cps-web/core/python_project/src/cps_web_api.py run
+25585,cps,20,0,56588,1676,324,S,0,0.0, nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx.conf
+25588,cps,20,0,57136,3308,1488,S,0,0.0, nginx: worker process
+25661,root,20,0,82032,3588,2772,S,0,0.0, sshd: root@pts/1
+25999,cps,20,0,63660,8276,2888,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+26106,gaussdba,20,0,1181m,7688,5216,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36656) idle
+26139,openstac,20,0,202m,54m,5396,S,0,0.3, /usr/bin/python /usr/bin/cinder-scheduler --config-file /etc/cinder/cinde
+26175,cps,20,0,253m,24m,3948,S,0,0.2, python /usr/local/bin/ntp-server/ntp_server/ntpserver.py
+26388,dnsmasq,20,0,13756,764,400,S,0,0.0, /usr/sbin/dnsmasq -u dnsmasq
+26610,rabbitmq,20,0,10784,384,212,S,0,0.0, /usr/lib64/erlang/erts-6.2/bin/epmd -daemon
+26638,root,20,0,106m,3996,2288,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26640,wwwrun,20,0,105m,2064,392,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26641,wwwrun,20,0,163m,3368,1320,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26642,wwwrun,20,0,163m,3660,1492,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26651,wwwrun,20,0,163m,3660,1496,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26752,cps,20,0,65744,8440,2936,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+27029,root,20,0,13772,2752,1620,S,0,0.0, -bash
+27120,root,20,0,0,0,0,S,0,0.0, [kworker/
+27189,root,20,0,96216,4084,2288,S,0,0.0, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27202,wwwrun,20,0,95952,2160,400,S,0,0.0, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27203,wwwrun,20,0,354m,44m,5436,S,0,0.3, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27204,wwwrun,20,0,290m,44m,5432,S,0,0.3, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27205,wwwrun,20,0,290m,44m,5444,S,0,0.3, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27335,root,20,0,24852,1484,976,S,0,0.0, /usr/sbin/ntpd -4 -c /usr/local/bin/ntp-server/conf/ntp.user.conf
+27472,openstac,20,0,177m,42m,4576,S,0,0.3, /usr/bin/python /usr/bin/neutron-dhcp-agent --config-file=/etc/neutron/ne
+27613,cps,20,0,65744,8452,2944,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+27825,openstac,20,0,221m,61m,6492,S,0,0.4, /usr/bin/python /usr/bin/heat-engine
+27879,cps,20,0,137m,9.9m,2852,S,0,0.1, python /usr/local/bin/network-client/network_client/networkClientMonitor.
+27883,root,20,0,0,0,0,S,0,0.0, [kworker/
+27969,root,20,0,13772,2748,1620,S,0,0.0, -bash
+28344,openstac,20,0,223m,68m,6380,S,0,0.4, /usr/bin/python /usr/bin/nova-console --config-file=/etc/nova/nova-consol
+28469,openstac,20,0,224m,69m,6384,S,0,0.4, /usr/bin/python /usr/bin/nova-consoleauth --config-file=/etc/nova/nova-co
+28473,gaussdba,20,0,1182m,8308,5528,S,0,0.1, gaussdb: OPENSTACK HEAT 172.28.0.2(51513) idle
+28674,rabbitmq,20,0,10748,412,264,S,0,0.0, inet_gethost 4
+28693,rabbitmq,20,0,10960,384,204,S,0,0.0, inet_gethost 4
+28920,openstac,20,0,173m,40m,5232,S,0,0.3, /usr/bin/python /usr/bin/dvs-server --config-file=/etc/dvs/dvs.conf
+29237,openstac,20,0,313m,78m,8504,S,0,0.5, /usr/bin/python /usr/bin/nova-scheduler --config-file=/etc/nova/nova-sche
+29847,cps,20,0,67740,9512,2864,S,0,0.1, /usr/bin/python /usr/local/bin/puppet-agent/puppet_agent/puppet_monitor.p
+30152,cps,20,0,54488,19m,1660,S,0,0.1, /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg -p /etc/haproxy/haproxy.pid
+30168,cps,20,0,65728,8460,2952,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+30327,gaussdba,20,0,1181m,7668,5200,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36811) idle
+30536,root,20,0,0,0,0,S,0,0.0, [kworker/
+30703,root,20,0,0,0,0,S,0,0.0, [kworker/
+30818,root,20,0,8544,604,400,S,0,0.0, /usr/sbin/tgtd --iscsi portal=172.28.0.
+30820,root,20,0,8544,408,204,S,0,0.0, /usr/sbin/tgtd --iscsi portal=172.28.0.
+30844,gaussdba,20,0,1182m,9328,6280,S,0,0.1, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36850) idle
+30987,gaussdba,20,0,1181m,7688,5216,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36858) idle
+31035,gaussdba,20,0,1181m,7692,5220,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36861) idle
+31147,gaussdba,20,0,1181m,7684,5212,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36865) idle
+31156,gaussdba,20,0,1181m,7684,5212,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36866) idle
+31157,gaussdba,20,0,1181m,7688,5216,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36867) idle
+31481,root,20,0,41576,2324,1580,S,0,0.0, sudo ovsdb-client monitor Interface name,ofport --format=json
+31490,root,20,0,24772,1772,1292,S,0,0.0, ovsdb-client monitor Interface name,ofport --format=json
+31599,cps,17,-3,68900,10m,2984,S,0,0.1, /usr/bin/python /usr/bin/cbs-serverControl -A RESTART
+32022,openstac,20,0,216m,74m,3104,S,0,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32023,cps,17,-3,64912,7904,2788,S,0,0.0, python /usr/local/bin/cbs-server/bin/monitor/CBSServerMonitor.py
+32024,openstac,20,0,214m,73m,3104,S,0,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32025,openstac,20,0,214m,72m,3104,S,0,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32027,openstac,20,0,219m,78m,3104,S,0,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32030,openstac,20,0,215m,73m,3104,S,0,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32080,openstac,20,0,209m,67m,2560,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32084,openstac,20,0,209m,67m,2544,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32088,openstac,20,0,209m,67m,2544,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32091,openstac,20,0,209m,67m,2564,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32092,openstac,20,0,209m,67m,2552,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32246,root,20,0,41576,2320,1580,S,0,0.0, sudo ovsdb-client monitor Interface name,ofport --format=json
+32251,root,20,0,24772,1768,1268,S,0,0.0, ovsdb-client monitor Interface name,ofport --format=json
+32403,gaussdba,20,0,1181m,7200,4824,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(36895) idle
+32463,cps,20,0,124m,8232,2832,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+,,,,,,,,,,
+,,,,,,,,,,
+top,-,2,up,36,min,,2,users,,load,average:,1.56, 1.57, 1.45
+Tasks:,435,total,,1,running,,434,sleeping,,0,stopped,,0,zombie
+Cpu(s):,19.3%us,,9.5%sy,,0.0%ni,,71.0%id,,0.0%wa,,0.0%hi,,0.1%si,,0.0%st,,
+Mem:,15888M,total,,6554M,used,,9334M,free,,44M,buffers,,
+Swap:,0M,total,,0M,used,,0M,free,,1805M,cached,,
+,,,,,,,,,,
+PID,USER,PR,NI,VIRT,RES,SHR,S,%CPU,%MEM,TIME+ COMMAND
+12000,openstac,20,0,363m,125m,3752,S,11,0.8, /usr/bin/python /usr/bin/nova-api --config-file=/etc/nova/nova-api.conf
+1247,root,20,0,13704,3952,612,S,6,0.0, /usr/sbin/cgrulesengd --logfile=/var/log/cgred
+32027,openstac,20,0,219m,78m,3104,S,6,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+2358,root,20,0,28404,10m,952,S,3,0.1, /sbin/syslog-ng -a /var/lib/dhcp/dev/log -a /var/lib/dhcp6/dev/log
+27484,rabbitmq,20,0,293m,122m,3528,S,3,0.8, /usr/lib64/erlang/erts-6.2/bin/beam.smp -W w -K true -A30 -P 1048576 -- -
+6659,cps,20,0,374m,28m,3896,S,2,0.2, python /usr/local/bin/cps-client/cps_client/cpsclient.py -s 172.28.10.121
+11897,openstac,20,0,237m,74m,3192,S,2,0.5, /usr/bin/python /usr/bin/cinder-api --config-file /etc/cinder/cinder-api.
+2581,gaussdba,20,0,1183m,11m,8060,S,1,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(37002) idle
+6483,cps,17,-3,197m,14m,3884,S,1,0.1, /usr/bin/python /usr/local/bin/cps-monitor/cps_monitor/cps_monitor.py
+9779,cps,20,0,236m,21m,3840,S,1,0.1, /usr/bin/python /usr/local/bin/zookeeper/zkServerMgr.py -z 172.28.10.121:
+11107,openstac,20,0,302m,75m,7732,S,1,0.5, /usr/bin/python /usr/bin/nova-api --config-file=/etc/nova/nova-api.conf
+30152,cps,20,0,54488,19m,1660,S,1,0.1, /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg -p /etc/haproxy/haproxy.pid
+2373,root,20,0,8384,4600,332,S,0,0.0, /sbin/haveged -w 1024 -v 1
+2582,gaussdba,20,0,1183m,11m,7880,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(37003) idle
+2695,gaussdba,20,0,1183m,8668,5340,S,0,0.1, gaussdb: OPENSTACK CINDER 172.28.0.2(37016) idle
+2825,root,20,0,98.4m,900,636,S,0,0.0, /usr/bin/sysmonitor
+2988,gaussdba,20,0,1182m,9620,6444,S,0,0.1, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37034) idle
+3123,root,20,0,9264,1516,860,R,0,0.0, top -d 2 -c -b -n 2
+3214,gaussdba,20,0,1181m,7200,4820,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37042) idle
+4506,omm,20,0,99348,12m,3124,S,0,0.1, /opt/tangram/oma/bin/omm_agent.bin --bboxpath=/var/log/tangram/omm/oma/..
+6166,openstac,20,0,371m,128m,8580,S,0,0.8, /usr/bin/python /usr/bin/nova-compute --config-file=/etc/nova/nova-comput
+10146,cps,20,0,303m,32m,4780,S,0,0.2, python /usr/local/bin/cps-server/cps_server/cpsserver.py -z 172.28.10.121
+11502,openstac,20,0,217m,57m,5712,S,0,0.4, /usr/bin/python /usr/bin/cinder-api --config-file /etc/cinder/cinder-api.
+11707,openstac,20,0,197m,49m,5604,S,0,0.3, /usr/bin/python /usr/bin/nova-conductor --config-file=/etc/nova/nova-cond
+12892,openstac,20,0,192m,48m,4596,S,0,0.3, /usr/bin/python /usr/bin/glance-api
+14738,openstac,20,0,206m,12m,3496,S,0,0.1, /usr/bin/python /usr/bin/oam-network-agent /etc/fusionnetwork/oam-network
+15326,openstac,20,0,174m,38m,4552,S,0,0.2, /usr/bin/python /usr/bin/neutron-sriov-nic-agent --config-file=/etc/neutr
+15849,openstac,20,0,165m,31m,4516,S,0,0.2, /usr/bin/python /usr/bin/dvs-agent --config-file=/etc/dvs/dvs-agent.ini
+16357,openstac,20,0,185m,38m,2576,S,0,0.2, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+19620,openstac,20,0,180m,40m,4648,S,0,0.3, /usr/bin/python /usr/bin/cinder-volume --config-file /etc/cinder/cinder-v
+20717,openstac,20,0,178m,42m,4628,S,0,0.3, /usr/bin/python /usr/bin/neutron-openvswitch-agent --config-file=/etc/neu
+25092,openstac,20,0,209m,70m,5296,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+26175,cps,20,0,253m,24m,3948,S,0,0.2, python /usr/local/bin/ntp-server/ntp_server/ntpserver.py
+27879,cps,20,0,137m,9.9m,2852,S,0,0.1, python /usr/local/bin/network-client/network_client/networkClientMonitor.
+1,root,20,0,10560,884,752,S,0,0.0, init [3]
+2,root,20,0,0,0,0,S,0,0.0, [kthreadd]
+3,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/0]
+5,root,20,0,0,0,0,S,0,0.0, [kworker/u:0]
+6,root,RT,0,0,0,0,S,0,0.0, [migration/0]
+7,root,RT,0,0,0,0,S,0,0.0, [watchdog/0]
+8,root,RT,0,0,0,0,S,0,0.0, [migration/1]
+10,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/1]
+12,root,RT,0,0,0,0,S,0,0.0, [watchdog/1]
+13,root,RT,0,0,0,0,S,0,0.0, [migration/2]
+15,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/2]
+16,root,RT,0,0,0,0,S,0,0.0, [watchdog/2]
+17,root,RT,0,0,0,0,S,0,0.0, [migration/3]
+19,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/3]
+20,root,RT,0,0,0,0,S,0,0.0, [watchdog/3]
+21,root,RT,0,0,0,0,S,0,0.0, [migration/4]
+22,root,20,0,0,0,0,S,0,0.0, [kworker/
+23,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/4]
+24,root,RT,0,0,0,0,S,0,0.0, [watchdog/4]
+25,root,RT,0,0,0,0,S,0,0.0, [migration/5]
+27,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/5]
+28,root,RT,0,0,0,0,S,0,0.0, [watchdog/5]
+29,root,RT,0,0,0,0,S,0,0.0, [migration/6]
+31,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/6]
+32,root,RT,0,0,0,0,S,0,0.0, [watchdog/6]
+33,root,RT,0,0,0,0,S,0,0.0, [migration/7]
+35,root,20,0,0,0,0,S,0,0.0, [ksoftirqd/7]
+36,root,RT,0,0,0,0,S,0,0.0, [watchdog/7]
+37,root,0,-20,0,0,0,S,0,0.0, [cpuset]
+38,root,0,-20,0,0,0,S,0,0.0, [khelper]
+39,root,0,-20,0,0,0,S,0,0.0, [netns]
+40,root,20,0,0,0,0,S,0,0.0, [sync_supers]
+41,root,20,0,0,0,0,S,0,0.0, [bdi-default]
+42,root,0,-20,0,0,0,S,0,0.0, [kintegrityd]
+43,root,0,-20,0,0,0,S,0,0.0, [kblockd]
+44,root,0,-20,0,0,0,S,0,0.0, [md]
+45,root,20,0,0,0,0,S,0,0.0, [khungtaskd]
+46,root,20,0,0,0,0,S,0,0.0, [kswapd0]
+47,root,25,5,0,0,0,S,0,0.0, [ksmd]
+48,root,39,19,0,0,0,S,0,0.0, [khugepaged]
+49,root,20,0,0,0,0,S,0,0.0, [fsnotify_mark]
+50,root,0,-20,0,0,0,S,0,0.0, [crypto]
+54,root,0,-20,0,0,0,S,0,0.0, [kthrotld]
+55,root,0,-20,0,0,0,S,0,0.0, [kpsmoused]
+139,root,0,-20,0,0,0,S,0,0.0, [kmpath_aluad]
+147,root,0,-20,0,0,0,S,0,0.0, [kmpath_rdacd]
+259,root,0,-20,0,0,0,S,0,0.0, [mpt_poll_0]
+260,root,0,-20,0,0,0,S,0,0.0, [mpt/0]
+271,root,20,0,0,0,0,S,0,0.0, [kworker/
+272,root,20,0,0,0,0,S,0,0.0, [kworker/
+275,root,20,0,0,0,0,S,0,0.0, [kworker/
+276,root,20,0,0,0,0,S,0,0.0, [kworker/
+277,root,20,0,0,0,0,S,0,0.0, [scsi_eh_0]
+279,root,20,0,0,0,0,S,0,0.0, [kworker/u:1]
+348,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+350,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+352,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+354,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+357,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+361,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+364,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+368,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+371,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+375,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+378,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+383,root,0,-20,0,0,0,S,0,0.0, [kdmflush]
+503,root,20,0,0,0,0,S,0,0.0, [kjournald]
+509,root,20,0,0,0,0,S,0,0.0, [flush-25
+532,dnsmasq,20,0,13808,812,392,S,0,0.0, dnsmasq --conf-file=/etc/apacheproxy/dnsmasq.conf --pid-file=/etc/apachep
+609,root,16,-4,17028,1064,548,S,0,0.0, /sbin/udevd --daemon
+703,root,0,-20,0,0,0,S,0,0.0, [ata_sff]
+747,root,20,0,0,0,0,S,0,0.0, [scsi_eh_1]
+749,root,20,0,0,0,0,S,0,0.0, [scsi_eh_2]
+768,root,0,-20,0,0,0,S,0,0.0, [vmmemctl]
+784,dnsmasq,20,0,13808,1140,716,S,0,0.0, dnsmasq --no-hosts --no-resolv --strict-order --bind-interfaces --interfa
+791,dnsmasq,20,0,13808,1144,716,S,0,0.0, dnsmasq --no-hosts --no-resolv --strict-order --bind-interfaces --interfa
+804,root,20,0,0,0,0,S,0,0.0, [kworker/
+809,root,20,0,0,0,0,S,0,0.0, [kworker/
+853,dnsmasq,20,0,13808,1140,716,S,0,0.0, dnsmasq --no-hosts --no-resolv --strict-order --bind-interfaces --interfa
+858,dnsmasq,20,0,13808,1232,716,S,0,0.0, dnsmasq --no-hosts --no-resolv --strict-order --bind-interfaces --interfa
+962,root,20,0,0,0,0,S,0,0.0, [kjournald]
+965,root,20,0,0,0,0,S,0,0.0, [kjournald]
+967,root,20,0,0,0,0,S,0,0.0, [kjournald]
+1088,root,20,0,149m,28m,2168,S,0,0.2, /usr/bin/python /usr/bin/neutron-ns-metadata-proxy --pid_file=/var/lib/ne
+1100,root,20,0,149m,28m,2168,S,0,0.2, /usr/bin/python /usr/bin/neutron-ns-metadata-proxy --pid_file=/var/lib/ne
+1123,root,20,0,149m,28m,2168,S,0,0.2, /usr/bin/python /usr/bin/neutron-ns-metadata-proxy --pid_file=/var/lib/ne
+1126,root,20,0,149m,28m,2168,S,0,0.2, /usr/bin/python /usr/bin/neutron-ns-metadata-proxy --pid_file=/var/lib/ne
+1219,root,0,-20,0,0,0,S,0,0.0, [target_completi]
+1220,root,0,-20,0,0,0,S,0,0.0, [tmr-%s]
+1281,root,0,-20,0,0,0,S,0,0.0, [bond0]
+1362,gaussdba,20,0,1183m,10m,6788,S,0,0.1, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36937) idle
+1371,root,20,0,4024,648,536,S,0,0.0, /sbin/acpid
+1383,messageb,20,0,27872,1144,852,S,0,0.0, /bin/dbus-daemon --system
+1419,root,20,0,22300,2824,680,S,0,0.0, /usr/bin/python /usr/libexec/tuned/pmqos-static.py cpu_dma_latency=1
+1469,root,20,0,0,0,0,S,0,0.0, [ovs_workq]
+1493,root,10,-10,25376,608,200,S,0,0.0, ovsdb-server: monitoring pid 1494 (healthy)
+1494,root,10,-10,25832,2820,1816,S,0,0.0, ovsdb-server /etc/openvswitch/conf.db -vconsole:emer -vsyslog:err -vfile:
+1503,root,10,-10,25928,620,184,S,0,0.0, ovs-vswitchd: monitoring pid 1504 (healthy)
+1504,root,10,-10,146m,64m,6304,S,0,0.4, ovs-vswitchd unix:/var/run/openvswitch/db.sock -vconsole:emer -vsyslog:er
+1574,root,20,0,57428,5820,1564,S,0,0.0, /usr/bin/python /usr/sbin/tuned -d -c /etc/tuned.conf
+1661,gaussdba,20,0,1182m,8804,5992,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36960) idle
+1669,gaussdba,20,0,1182m,8480,5716,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36961) idle
+1674,haldaemo,20,0,38236,4192,3012,S,0,0.0, /usr/sbin/hald --daemon=yes
+1677,root,20,0,98640,2236,1448,S,0,0.0, /usr/sbin/console-kit-daemon
+1740,root,20,0,22332,1404,1156,S,0,0.0, hald-runner
+1751,root,20,0,39056,2144,1820,S,0,0.0, hald-addon-input: Listening on /dev/input/event0 /dev/input/event2
+1757,gaussdba,20,0,1182m,9880,6504,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36967) idle
+1771,haldaemo,20,0,40812,2276,1928,S,0,0.0, hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+1772,root,20,0,0,0,0,S,0,0.0, [kworker/
+1777,root,20,0,39056,2152,1820,S,0,0.0, hald-addon-storage: polling /dev/sr0 (every 16 sec)
+1779,root,20,0,39056,2152,1820,S,0,0.0, hald-addon-storage: no polling on /dev/fd0 because it is explicitly disab
+1783,gaussdba,20,0,1182m,9348,6400,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36968) idle
+1799,gaussdba,20,0,1182m,9792,7008,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36969) idle
+1809,gaussdba,20,0,1182m,8364,5632,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36970) idle
+1810,gaussdba,20,0,1182m,8904,5992,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36971) idle
+1812,gaussdba,20,0,1182m,8368,5636,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36972) idle
+1813,gaussdba,20,0,1182m,8388,5656,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36973) idle
+1814,gaussdba,20,0,1182m,8376,5644,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36974) idle
+1875,gaussdba,20,0,1182m,8632,5832,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36981) idle
+1876,gaussdba,20,0,1182m,8380,5648,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36982) idle
+1878,gaussdba,20,0,1182m,8384,5652,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36984) idle
+1886,gaussdba,20,0,1182m,8904,5976,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36985) idle
+1897,gaussdba,20,0,1182m,8384,5652,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36986) idle
+1899,gaussdba,20,0,1182m,8908,6100,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36987) idle
+1906,gaussdba,20,0,1182m,8372,5620,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36988) idle
+1907,gaussdba,20,0,1182m,8384,5652,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36989) idle
+1908,gaussdba,20,0,1182m,8384,5652,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36991) idle
+2067,gaussdba,20,0,1182m,8372,5640,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(36992) idle
+2112,gaussdba,20,0,1181m,6848,4484,S,0,0.0, gaussdb: OPENSTACK CINDER 172.28.0.2(36994) idle
+2113,gaussdba,20,0,1181m,6844,4480,S,0,0.0, gaussdb: OPENSTACK CINDER 172.28.0.2(36995) idle
+2116,cps,17,-3,109m,10m,3276,S,0,0.1, python /usr/local/bin/cbs-server/bin/cbs-server.py --ha ACTIVE --servers
+2137,cps,17,-3,207m,13m,3544,S,0,0.1, python /usr/local/bin/cbs-server/bin/progress/progress_update.py --ha ACT
+2142,cps,17,-3,11556,1588,1128,S,0,0.0, sh -c { curl --keepalive-time 3 -fs -X GET http://172.28.10.10v1/A
+2143,cps,17,-3,45532,2548,1864,S,0,0.0, curl --keepalive-time 3 -fs -X GET http://172.28.10.10v1/AUTH_test
+2226,gaussdba,20,0,1181m,7084,4708,S,0,0.0, gaussdb: OPENSTACK CINDER 172.28.0.2(36996) idle
+2264,gaussdba,20,0,1181m,6192,3880,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36997) idle
+2324,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2325,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2326,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2327,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2328,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2329,root,20,0,53336,1324,948,S,0,0.0, /usr/sbin/cron
+2330,root,20,0,53336,1320,948,S,0,0.0, /usr/sbin/cron
+2331,root,20,0,53336,1320,948,S,0,0.0, /usr/sbin/cron
+2336,root,20,0,11320,1304,1076,S,0,0.0, /bin/sh -c sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/NetMonitor.sh
+2338,root,20,0,11320,1304,1076,S,0,0.0, /bin/sh -c sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/IOMonitor.sh
+2339,root,20,0,11320,1304,1076,S,0,0.0, /bin/sh -c sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/MemMonitor.sh
+2341,root,20,0,11320,1308,1076,S,0,0.0, /bin/sh -c sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/NetMonitor.sh
+2342,root,20,0,11320,1312,1076,S,0,0.0, /bin/sh -c sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/CpuMonitor.sh
+2345,root,20,0,11320,1308,1076,S,0,0.0, /bin/sh -c sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/CpuMonitor.sh
+2346,root,20,0,11320,1304,1076,S,0,0.0, /bin/sh -c sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/IOMonitor.sh
+2347,root,20,0,11320,1308,1076,S,0,0.0, /bin/sh -c sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/MemMonitor.sh
+2348,root,20,0,4020,296,236,S,0,0.0, sleep 40s
+2350,root,20,0,4020,300,236,S,0,0.0, sleep 40s
+2351,root,20,0,4020,296,236,S,0,0.0, sleep 20s
+2354,root,20,0,4020,300,236,S,0,0.0, sleep 40s
+2355,root,20,0,4020,296,236,S,0,0.0, sleep 20s
+2357,root,20,0,4020,300,236,S,0,0.0, sleep 20s
+2361,root,20,0,4292,660,420,S,0,0.0, /sbin/klogd -c 5 -x
+2369,root,20,0,4020,296,236,S,0,0.0, sleep 20s
+2370,root,20,0,4020,300,236,S,0,0.0, sleep 40s
+2588,gaussdba,20,0,1182m,7596,5128,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37008) idle
+2591,gaussdba,20,0,1181m,7168,4708,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37009) idle
+2649,gaussdba,20,0,1182m,7872,5320,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37010) idle
+2651,root,20,0,53736,1252,636,S,0,0.0, /usr/sbin/sshd -o PidFile=/var/run/sshd.init.pid
+2662,gaussdba,20,0,1181m,7688,5216,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37011) idle
+2663,root,20,0,26976,520,388,S,0,0.0, /usr/bin/sysalarm
+2667,gaussdba,20,0,1182m,9296,6240,S,0,0.1, gaussdb: OPENSTACK NOVA 172.28.0.2(37012) idle
+2679,gaussdba,20,0,1182m,7872,5320,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37013) idle
+2697,gaussdba,20,0,1182m,7880,5328,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37017) idle
+2721,root,20,0,318m,5816,2300,S,0,0.0, /usr/bin/UVPHostd
+2789,root,20,0,8792,548,288,S,0,0.0, /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+2790,root,20,0,124m,2700,1360,S,0,0.0, /usr/bin/hirmd -i 15 -S 0 -l 5 -H 0 -O 1
+2807,root,20,0,99.9m,1560,408,S,0,0.0, /usr/sbin/vBMC_agentd -d
+2887,root,20,0,0,0,0,S,0,0.0, [flush-25
+2888,root,20,0,0,0,0,S,0,0.0, [flush-25
+2892,gaussdba,20,0,1181m,7204,4828,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37024) idle
+2902,gaussdba,20,0,1181m,7220,4840,S,0,0.0, gaussdb: OPENSTACK NOVA 172.28.0.2(37026) idle
+2907,root,20,0,0,0,0,S,0,0.0, [kauditd]
+3031,root,20,0,12692,932,772,S,0,0.0, /sbin/mingetty --noclear tty1
+3032,root,20,0,12692,924,768,S,0,0.0, /sbin/mingetty tty2
+3033,root,20,0,12692,924,768,S,0,0.0, /sbin/mingetty tty3
+3034,root,20,0,12692,924,768,S,0,0.0, /sbin/mingetty tty4
+3036,root,20,0,12692,904,756,S,0,0.0, /sbin/mingetty tty5
+3037,root,20,0,12692,928,768,S,0,0.0, /sbin/mingetty tty6
+3038,root,20,0,4032,608,516,S,0,0.0, /sbin/agetty -L 115200 ttyS0 xterm
+3044,gaussdba,20,0,1181m,6520,4184,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(37039) idle
+3045,openstac,20,0,11504,1588,1128,S,0,0.0, sh -c { sudo arping 172.28.10.252 -D -w 2 -I brcps; } 2>&1
+3046,root,20,0,41576,2316,1572,S,0,0.0, sudo arping 172.28.10.252 -D -w 2 -I brcps
+3047,root,20,0,9200,660,504,S,0,0.0, arping 172.28.10.252 -D -w 2 -I brcps
+3122,root,20,0,11756,1672,1196,S,0,0.0, sh metric_ext.sh
+3718,root,20,0,40816,2384,1628,S,0,0.0, sudo /usr/local/bin/gaussdbControl -CS CompontState
+3722,root,20,0,11636,1908,1252,S,0,0.0, /bin/bash /usr/local/bin/gaussdbControl -CS CompontState
+3792,root,20,0,4072,348,236,S,0,0.0, sleep 0.1
+4005,root,0,-20,0,0,0,S,0,0.0, [trunk0]
+4087,openstac,20,0,214m,56m,5800,S,0,0.4, /usr/bin/python /usr/bin/ceilometer-agent-compute --config-file /etc/ceil
+4327,cps,20,0,124m,8192,2800,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+4448,cps,20,0,60828,6660,1072,S,0,0.0, python /usr/bin/AutoDiscoveryTimer.py
+4497,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4511,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4526,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4540,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4560,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4586,root,0,-20,0,0,0,S,0,0.0, [xfsalloc]
+4587,root,0,-20,0,0,0,S,0,0.0, [xfs_mru_cache]
+4588,root,0,-20,0,0,0,S,0,0.0, [xfslogd]
+4589,root,20,0,0,0,0,S,0,0.0, [xfsbufd/dm-10]
+4590,root,0,-20,0,0,0,S,0,0.0, [xfs-data/dm-10]
+4591,root,0,-20,0,0,0,S,0,0.0, [xfs-conv/dm-10]
+4592,root,20,0,0,0,0,S,0,0.0, [xfsaild/dm-10]
+4606,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4620,root,20,0,0,0,0,S,0,0.0, [kjournald]
+4753,openstac,20,0,198m,49m,4552,S,0,0.3, /usr/bin/python /usr/bin/ceilometer-agent-hardware --config-file /etc/cei
+4761,root,20,0,0,0,0,S,0,0.0, [flush-25
+4762,root,20,0,0,0,0,S,0,0.0, [flush-25
+4763,root,20,0,0,0,0,S,0,0.0, [flush-25
+4765,root,20,0,0,0,0,S,0,0.0, [flush-25
+4823,cps,20,0,124m,8232,2840,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+5045,cps,20,0,68900,10m,2980,S,0,0.1, /usr/bin/python /usr/bin/cbs-serverControl -S RUN -HA ACTIVE -N {'instId'
+5416,cps,20,0,187m,18m,3776,S,0,0.1, python /usr/local/bin/network-client/network_client/networkconf.py -c /et
+5551,cps,20,0,60200,8056,2860,S,0,0.0, python /usr/bin/monitor_syslog_ip.py
+6093,root,20,0,213m,7004,4124,S,0,0.0, /usr/sbin/libvirtd -d -l
+6424,root,20,0,0,0,0,S,0,0.0, [kworker/u:2]
+6458,root,20,0,0,0,0,S,0,0.0, [kworker/
+6478,root,20,0,0,0,0,S,0,0.0, [kworker/
+6486,cps,20,0,64180,7848,2728,S,0,0.0, /usr/bin/python /usr/local/bin/cps-monitor/cps_monitor/sys_monitor.py
+6633,root,20,0,171m,1684,932,S,0,0.0, /usr/sbin/nscd
+8393,root,20,0,0,0,0,S,0,0.0, [kworker/
+8922,root,20,0,81820,3584,2756,S,0,0.0, sshd: root@notty
+8930,root,20,0,9696,828,652,S,0,0.0, /usr/lib64/ssh/sftp-server -l INFO -f AUTH
+10144,cps,20,0,11508,1596,1136,S,0,0.0, /bin/sh -c python /usr/local/bin/cps-server/cps_server/cpsserver.py -z 17
+10233,root,20,0,0,0,0,S,0,0.0, [kworker/
+10542,openstac,20,0,180m,30m,5120,S,0,0.2, /usr/bin/python /usr/bin/nova-novncproxy --config-file=/etc/nova/nova-nov
+10687,root,0,-20,0,0,0,S,0,0.0, [iscsi_eh]
+10688,root,18,-2,17024,932,416,S,0,0.0, /sbin/udevd --daemon
+10689,root,18,-2,17024,776,260,S,0,0.0, /sbin/udevd --daemon
+10698,cps,20,0,124m,8192,2792,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+10699,root,20,0,4828,484,384,S,0,0.0, /sbin/iscsid -c /etc/iscsi/iscsid.conf -n
+10700,root,10,-10,5328,3216,2068,S,0,0.0, /sbin/iscsid -c /etc/iscsi/iscsid.conf -n
+10747,cps,20,0,164m,24m,3964,S,0,0.2, python /usr/local/bin/upg-server/upg_server/upg_server.py -u 9882 -s 172.
+11236,cps,20,0,61556,8184,2792,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+11272,cps,20,0,65728,8356,2848,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+11424,root,20,0,9484,832,652,S,0,0.0, /usr/lib64/ssh/sftp-server -l INFO -f AUTH
+11610,root,20,0,0,0,0,S,0,0.0, [kworker/
+11703,gaussdba,20,0,1181m,7184,4744,S,0,0.0, gaussdb: OPENSTACK DVS 172.28.0.2(36099) idle
+11790,openstac,20,0,288m,55m,1620,S,0,0.4, /usr/bin/python /usr/bin/nova-api --config-file=/etc/nova/nova-api.conf
+11798,cps,20,0,61556,8192,2800,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+11814,cps,20,0,61556,8184,2800,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+11915,cps,20,0,1218m,54m,8196,S,0,0.3, /usr/lib/jre/bin/java -XX:-UseLargePages -Djava.net.preferIPv4Stack=true
+11956,cps,20,0,65744,8368,2856,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+12080,openstac,20,0,302m,68m,1348,S,0,0.4, /usr/bin/python /usr/bin/nova-api --config-file=/etc/nova/nova-api.conf
+12689,openstac,20,0,206m,47m,5664,S,0,0.3, /usr/bin/python /usr/bin/heat-api
+13000,openstac,20,0,206m,44m,1916,S,0,0.3, /usr/bin/python /usr/bin/heat-api
+13004,openstac,20,0,206m,44m,1916,S,0,0.3, /usr/bin/python /usr/bin/heat-api
+13005,openstac,20,0,206m,44m,1916,S,0,0.3, /usr/bin/python /usr/bin/heat-api
+13110,openstac,20,0,206m,47m,5664,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cfn
+13138,openstac,20,0,160m,38m,3980,S,0,0.2, /usr/bin/python /usr/bin/glance-registry
+13326,openstac,20,0,205m,47m,5848,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cloudwatch
+13331,cps,20,0,61556,8200,2808,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+13375,cps,20,0,65728,8364,2856,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+13495,openstac,20,0,160m,35m,828,S,0,0.2, /usr/bin/python /usr/bin/glance-registry
+13516,openstac,20,0,192m,45m,1796,S,0,0.3, /usr/bin/python /usr/bin/glance-api
+13519,openstac,20,0,192m,45m,1796,S,0,0.3, /usr/bin/python /usr/bin/glance-api
+13520,openstac,20,0,192m,45m,1796,S,0,0.3, /usr/bin/python /usr/bin/glance-api
+13556,openstac,20,0,206m,43m,1748,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cfn
+13559,openstac,20,0,206m,43m,1748,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cfn
+13561,openstac,20,0,206m,43m,1748,S,0,0.3, /usr/bin/python /usr/bin/heat-api-cfn
+13573,cps,20,0,61556,8200,2816,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+13610,cps,20,0,139m,13m,3512,S,0,0.1, python /usr/local/bin/ntp-client/ntp_client/ntpclient.py -s 172.28.11.37
+13694,cps,20,0,86392,11m,3252,S,0,0.1, python /usr/local/lib/rabbitmq/HW_FS_Extend/etc/rabbitmq_monitor.py
+13811,cps,20,0,63676,8216,2816,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+14108,openstac,20,0,179m,43m,4560,S,0,0.3, /usr/bin/python /usr/bin/neutron-l3-agent --config-file=/etc/neutron/neut
+14306,cps,20,0,61556,8212,2824,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+14552,root,20,0,98.5m,36m,2092,S,0,0.2, /usr/bin/ruby /usr/sbin/puppetd --logdest=/var/log/puppet/puppet.log --ma
+14998,cps,20,0,61556,8212,2824,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+15407,backup,20,0,137m,24m,3972,S,0,0.2, python /usr/local/bin/backup-client/backup_client/backup_client.py -g htt
+15455,openstac,20,0,175m,39m,4560,S,0,0.2, /usr/bin/python /usr/bin/neutron-evs-agent --config-file=/etc/neutron/neu
+15505,cps,20,0,61556,8220,2832,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+15696,cps,20,0,61556,8220,2832,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+16037,openstac,20,0,180m,40m,4596,S,0,0.3, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+16051,cps,20,0,124m,8232,2840,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+16191,cps,20,0,117m,16m,3508,S,0,0.1, python /usr/local/bin/info-collect-client/client/info_collect_client.py -
+16228,cps,20,0,56480,7740,2756,S,0,0.0, python /usr/local/bin/info-collect-client/client/info_collect_heartbeat_s
+16298,cps,20,0,61556,8236,2848,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+16334,openstac,20,0,176m,40m,4552,S,0,0.3, /usr/bin/python /usr/bin/neutron-metering-agent --config-file=/etc/neutro
+16356,openstac,20,0,185m,38m,2576,S,0,0.2, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+16358,openstac,20,0,185m,38m,2576,S,0,0.2, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+16359,openstac,20,0,185m,38m,2576,S,0,0.2, /usr/bin/python /usr/bin/neutron-metadata-agent --config-file=/etc/neutro
+16365,root,20,0,0,0,0,S,0,0.0, [kworker/
+16615,cps,20,0,212m,26m,3616,S,0,0.2, python /usr/local/bin/upg-client/upg_client/upg_client.py --restServer 17
+16755,cps,20,0,61556,8236,2848,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+17965,root,20,0,0,0,0,S,0,0.0, [kworker/
+17998,cps,20,0,124m,8236,2824,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+18566,root,20,0,0,0,0,S,0,0.0, [kworker/
+18809,root,20,0,40816,2380,1628,S,0,0.0, sudo python /usr/local/bin/log-agent/log_agent/logagent.py -c /usr/local/
+18816,root,20,0,145m,27m,4044,S,0,0.2, python /usr/local/bin/log-agent/log_agent/logagent.py -c /usr/local/bin/l
+19065,cps,20,0,210m,14m,3676,S,0,0.1, python /usr/local/bin/fault-direct-notice/fault_direct_notice/faultdirect
+19286,root,20,0,60724,7148,2804,S,0,0.0, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+19885,cps,20,0,147m,8004,2808,S,0,0.0, python /usr/local/bin/collect-alarm/collect_alarm.py -C /etc/huawei/fusio
+21171,cps,20,0,124m,8244,2856,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+21799,root,20,0,0,0,0,S,0,0.0, [kworker/
+21854,cps,20,0,56688,7728,2768,S,0,0.0, python /opt/tangram/oma/tools/oma-monitor
+22441,openstac,20,0,267m,108m,3068,S,0,0.7, /usr/bin/python /usr/bin/nova-conductor --config-file=/etc/nova/nova-cond
+22832,openstac,20,0,269m,111m,3068,S,0,0.7, /usr/bin/python /usr/bin/nova-conductor --config-file=/etc/nova/nova-cond
+23347,openstac,20,0,142m,29m,4256,S,0,0.2, /usr/bin/python /usr/bin/neutron-reschedule --config-file=/etc/neutron-re
+23714,openstac,20,0,30708,940,384,S,0,0.0, memcached -d -m 1024 -l 172.28.10.6 -p 11211 -u openstack
+23771,cps,20,0,61556,8248,2864,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+23814,openstac,20,0,4072,352,236,S,0,0.0, sleep 300
+23955,cps,20,0,61556,8260,2872,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+24041,cps,20,0,165m,24m,4004,S,0,0.2, python /usr/local/bin/log-server/log_server/logserver.py -u 172.28.10.180
+24115,cps,20,0,137m,9.9m,2836,S,0,0.1, python /usr/local/bin/network-server/network_server/networkServerMonitor.
+24172,cps,20,0,106m,17m,3732,S,0,0.1, python /usr/local/bin/network-server/network_server/networkServer.py --ne
+24261,root,20,0,15704,728,568,S,0,0.0, /usr/sbin/cron
+24323,cps,20,0,387m,32m,4328,S,0,0.2, python /usr/local/bin/info-collect-server/server/info_collect_server.py -
+24387,cps,20,0,60804,7956,2828,S,0,0.0, python /usr/local/bin/info-collect-server/server/info_collect_heartbeat_s
+24578,gaussdba,20,0,1179m,116m,115m,S,0,0.7, /opt/gaussdb/app/bin/gaussdb -D /opt/fusionplatform/data/gaussdb
+24598,backup,20,0,226m,27m,4208,S,0,0.2, python /usr/local/bin/backup-server/backup_server/backup_server.py -r 172
+24694,root,20,0,82032,3592,2772,S,0,0.0, sshd: root@pts/0
+24701,openstac,20,0,206m,56m,2960,S,0,0.4, /usr/bin/python /usr/bin/cinder-volume --config-file /etc/cinder/cinder-v
+24703,openstac,20,0,269m,110m,3068,S,0,0.7, /usr/bin/python /usr/bin/nova-conductor --config-file=/etc/nova/nova-cond
+24757,openstac,20,0,11504,1652,1188,S,0,0.0, /bin/sh /usr/bin/oam-network-server --config-file=/etc/fusionnetwork/oam-
+24769,gaussdba,20,0,1180m,131m,130m,S,0,0.8, gaussdb: checkpointer process
+24770,gaussdba,20,0,1179m,8308,7408,S,0,0.1, gaussdb: writer process
+24771,gaussdba,20,0,1179m,48m,47m,S,0,0.3, gaussdb: wal writer process
+24772,gaussdba,20,0,1181m,3668,1364,S,0,0.0, gaussdb: autovacuum launcher process
+24773,gaussdba,20,0,29480,1660,768,S,0,0.0, gaussdb: archiver process last was 000000010000000000000077
+24774,gaussdba,20,0,30328,2428,796,S,0,0.0, gaussdb: stats collector process
+24775,gaussdba,20,0,29484,1580,684,S,0,0.0, gaussdb: auditor process
+24794,backup,20,0,140m,23m,768,S,0,0.1, python /usr/local/bin/backup-server/backup_server/backup_server.py -r 172
+24842,openstac,20,0,1255m,409m,9.9m,S,0,2.6, /usr/lib/jre/bin/java -Duser.timezone=GMT+08 -Dgosh.args=--nointeractive
+24911,cps,20,0,65728,8440,2928,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+24928,cps,20,0,61556,8268,2880,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+25407,cps,20,0,65744,8440,2928,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+25509,cps,20,0,65020,8328,3220,S,0,0.1, python /usr/local/bin/cps-web/core/python_project/src/control/cps_webmoni
+25532,cps,20,0,61556,8276,2888,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+25574,cps,20,0,109m,16m,3352,S,0,0.1, python /usr/local/bin/cps-web/core/python_project/src/control/cps_web_dow
+25584,cps,20,0,314m,26m,5292,S,0,0.2, python /usr/local/bin/cps-web/core/python_project/src/cps_web_api.py run
+25585,cps,20,0,56588,1676,324,S,0,0.0, nginx: master process /usr/sbin/nginx -c /etc/nginx/nginx.conf
+25588,cps,20,0,57136,3308,1488,S,0,0.0, nginx: worker process
+25661,root,20,0,82032,3588,2772,S,0,0.0, sshd: root@pts/1
+25999,cps,20,0,63660,8276,2888,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+26106,gaussdba,20,0,1181m,7688,5216,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36656) idle
+26139,openstac,20,0,202m,54m,5396,S,0,0.3, /usr/bin/python /usr/bin/cinder-scheduler --config-file /etc/cinder/cinde
+26388,dnsmasq,20,0,13756,764,400,S,0,0.0, /usr/sbin/dnsmasq -u dnsmasq
+26610,rabbitmq,20,0,10784,384,212,S,0,0.0, /usr/lib64/erlang/erts-6.2/bin/epmd -daemon
+26638,root,20,0,106m,3996,2288,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26640,wwwrun,20,0,105m,2064,392,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26641,wwwrun,20,0,163m,3368,1320,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26642,wwwrun,20,0,163m,3660,1492,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26651,wwwrun,20,0,163m,3660,1496,S,0,0.0, /usr/sbin/httpd2 -f /etc/apache2a/httpd.conf -k start
+26752,cps,20,0,65744,8440,2936,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+27029,root,20,0,13772,2752,1620,S,0,0.0, -bash
+27120,root,20,0,0,0,0,S,0,0.0, [kworker/
+27189,root,20,0,96216,4084,2288,S,0,0.0, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27202,wwwrun,20,0,95952,2160,400,S,0,0.0, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27203,wwwrun,20,0,354m,44m,5436,S,0,0.3, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27204,wwwrun,20,0,290m,44m,5432,S,0,0.3, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27205,wwwrun,20,0,290m,44m,5444,S,0,0.3, /usr/sbin/httpd2-worker -f /etc/apache4keystone/httpd.conf
+27335,root,20,0,24852,1484,976,S,0,0.0, /usr/sbin/ntpd -4 -c /usr/local/bin/ntp-server/conf/ntp.user.conf
+27472,openstac,20,0,177m,42m,4576,S,0,0.3, /usr/bin/python /usr/bin/neutron-dhcp-agent --config-file=/etc/neutron/ne
+27613,cps,20,0,65744,8452,2944,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+27825,openstac,20,0,221m,61m,6492,S,0,0.4, /usr/bin/python /usr/bin/heat-engine
+27883,root,20,0,0,0,0,S,0,0.0, [kworker/
+27969,root,20,0,13772,2748,1620,S,0,0.0, -bash
+28344,openstac,20,0,223m,68m,6380,S,0,0.4, /usr/bin/python /usr/bin/nova-console --config-file=/etc/nova/nova-consol
+28469,openstac,20,0,224m,69m,6384,S,0,0.4, /usr/bin/python /usr/bin/nova-consoleauth --config-file=/etc/nova/nova-co
+28473,gaussdba,20,0,1182m,8308,5528,S,0,0.1, gaussdb: OPENSTACK HEAT 172.28.0.2(51513) idle
+28674,rabbitmq,20,0,10748,412,264,S,0,0.0, inet_gethost 4
+28693,rabbitmq,20,0,10960,384,204,S,0,0.0, inet_gethost 4
+28920,openstac,20,0,173m,40m,5232,S,0,0.3, /usr/bin/python /usr/bin/dvs-server --config-file=/etc/dvs/dvs.conf
+29237,openstac,20,0,313m,78m,8504,S,0,0.5, /usr/bin/python /usr/bin/nova-scheduler --config-file=/etc/nova/nova-sche
+29847,cps,20,0,67740,9512,2864,S,0,0.1, /usr/bin/python /usr/local/bin/puppet-agent/puppet_agent/puppet_monitor.p
+29980,openstac,20,0,202m,54m,5416,S,0,0.3, /usr/bin/python /usr/bin/cinder-backup --config-file /etc/cinder/cinder-b
+30168,cps,20,0,65728,8460,2952,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+30327,gaussdba,20,0,1181m,7668,5200,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36811) idle
+30536,root,20,0,0,0,0,S,0,0.0, [kworker/
+30703,root,20,0,0,0,0,S,0,0.0, [kworker/
+30818,root,20,0,8544,604,400,S,0,0.0, /usr/sbin/tgtd --iscsi portal=172.28.0.
+30820,root,20,0,8544,408,204,S,0,0.0, /usr/sbin/tgtd --iscsi portal=172.28.0.
+30844,gaussdba,20,0,1182m,9328,6280,S,0,0.1, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36850) idle
+30987,gaussdba,20,0,1181m,7688,5216,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36858) idle
+31035,gaussdba,20,0,1181m,7692,5220,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36861) idle
+31147,gaussdba,20,0,1181m,7684,5212,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36865) idle
+31156,gaussdba,20,0,1181m,7684,5212,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36866) idle
+31157,gaussdba,20,0,1181m,7688,5216,S,0,0.0, gaussdb: OPENSTACK NEUTRON 172.28.0.2(36867) idle
+31481,root,20,0,41576,2324,1580,S,0,0.0, sudo ovsdb-client monitor Interface name,ofport --format=json
+31490,root,20,0,24772,1772,1292,S,0,0.0, ovsdb-client monitor Interface name,ofport --format=json
+31599,cps,17,-3,68900,10m,2984,S,0,0.1, /usr/bin/python /usr/bin/cbs-serverControl -A RESTART
+32022,openstac,20,0,216m,74m,3104,S,0,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32023,cps,17,-3,64912,7904,2788,S,0,0.0, python /usr/local/bin/cbs-server/bin/monitor/CBSServerMonitor.py
+32024,openstac,20,0,214m,73m,3104,S,0,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32025,openstac,20,0,214m,72m,3104,S,0,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32030,openstac,20,0,215m,73m,3104,S,0,0.5, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32080,openstac,20,0,209m,67m,2560,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32084,openstac,20,0,209m,67m,2544,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32088,openstac,20,0,209m,67m,2544,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32091,openstac,20,0,209m,67m,2564,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32092,openstac,20,0,209m,67m,2552,S,0,0.4, /usr/bin/python /usr/bin/neutron-server --config-file=/etc/neutron/neutro
+32246,root,20,0,41576,2320,1580,S,0,0.0, sudo ovsdb-client monitor Interface name,ofport --format=json
+32251,root,20,0,24772,1768,1268,S,0,0.0, ovsdb-client monitor Interface name,ofport --format=json
+32463,cps,20,0,124m,8232,2832,S,0,0.1, python /usr/lib64/python2.6/site-packages/FSComponentUtil/heartBeat.py ST
+,,,,,,,,,,

@@ -1,0 +1,15 @@
+* * * * * sh /home/Hybrid-Cloud-Monitor/bin/CpuMonitor.sh
+* * * * * sh /home/Hybrid-Cloud-Monitor/bin/MemMonitor.sh
+* * * * * sh /home/Hybrid-Cloud-Monitor/bin/IOMonitor.sh
+* * * * * sh /home/Hybrid-Cloud-Monitor/bin/NetMonitor.sh
+
+* * * * * sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/CpuMonitor.sh
+* * * * * sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/MemMonitor.sh
+* * * * * sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/IOMonitor.sh
+* * * * * sleep 20s; sh /home/Hybrid-Cloud-Monitor/bin/NetMonitor.sh
+
+
+* * * * * sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/CpuMonitor.sh
+* * * * * sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/MemMonitor.sh
+* * * * * sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/IOMonitor.sh
+* * * * * sleep 40s; sh /home/Hybrid-Cloud-Monitor/bin/NetMonitor.sh
